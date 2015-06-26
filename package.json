@@ -1,0 +1,32 @@
+{
+  "name": "gulp-remove-debug-blocks",
+  "version": "0.0.1",
+  "description": "Plugin for gulp that removes debug blocks.",
+  "dependencies": {
+    "through2": "0.6.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^5.0.0",
+    "vinyl": "^0.4.6"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:keradus/gulp-remove-debug-blocks.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "replace"
+  ],
+  "author": "Dariusz Rumiñski <dariusz.ruminski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keradus/gulp-remove-debug-blocks/issues"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
